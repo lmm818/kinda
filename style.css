@@ -1,0 +1,66 @@
+body {
+  background-color: #a4c8de;
+  background: linear-gradient(#a4c8de, #e66465);
+  /* i had a vision of a gradient background as this is a summer EP, and thought a sunset like background
+  would be great. i searched through w3 for some documention and found background-image. it gave me gradients
+  but in several repeating blocks. i then tested this out with simply background and it worked! by default,
+  linear gradient goes from top to bottom, but you can add an additional parameter if you wish to change direction */
+  font-family: helvetica;
+  /*this typeface was very similar to the band's and is a "web safe font" which means it should show on almost
+  all browsers so i went with this for the entire page*/
+}
+
+img {
+  height: 45%;
+  width: 45%;
+  /* since my image is 1000x1000px, i wanted to make sure my other content could at least sort of show.
+  i decided to change the size of it using percentages instead of specific px numbers, that way the
+  image can be manipulated based on browser size.*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* similar to what i did with my first website, i made the image a block to center it.*/
+  margin-top: 30px;
+  /*this time i added some space in the margin, as i wanted that space to be constant, as well as not flush */
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  /*it was important to make the text white, as it is white in the cover itself, i went with black for the
+  rest as i felt it was more readable*/
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+#extra{
+  text-align: center;
+}
+
+#songTitles{
+  font-style: italic;
+  /*i really wanted to italicize these because it felt right aesthetically, i also found this documention
+  on the w3 page*/
+}
+
+#lyrics{
+  font-style: italic;
+  /*same thing as above, lyrics felt important to italicize*/
+}
+
+#trackRight{
+  padding-right: 30px;
+  /*did not want the content to be flush, so i added padding similar to the image.*/
+  text-align: right;
+  /*i felt it looked better if the songs themselves were in a left right order as the rest of the
+  content was centered*/
+}
+
+#trackLeft{
+  padding-left: 30px;
+}
